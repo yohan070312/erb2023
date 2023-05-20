@@ -3,13 +3,17 @@
 <title>합</title>
 </head>
 <body>
-sum 구하기
+<h1>sum 구하기
 <script>
 sum=0
+start = new Datas()
 for ( k=0 ; k<=5 ; k++ ) {
    sum = sum + k
+   document.write("k is " + k + ", sum is " + sum + "<br>")
 }
-document.write("sum is " +sum)
+end = new Datas()
+document.write("sum is " + sum+"<br>")
+document.write("computing Time is " + (end-start) + "ms")
 </script>
 </body>
 </html>
